@@ -1,4 +1,4 @@
-# HyperCube_Unfoldings
+# HyperCube_Unfoldings_Data
 Enumarating the edge-unfolding of the 261 face-unfoldings of the 4-dimensional hypercube. 
 
 # Algorithm
