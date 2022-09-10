@@ -1,3 +1,5 @@
+The extended abstract and presentation presented at Japan Conference on Discrete and Computational Geometry, Graphs, and Games (JCDCG3) 2022 can be found above.
+
 # HyperCube_Unfoldings_Data
 Enumarating edge-unfoldings of the 261 face-unfoldings of the 4-dimensional hypercube. 
 
