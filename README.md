@@ -1,6 +1,6 @@
 # Complete Dimension-Descending Tilers: Proof for the 4D Hypercube
 
-## Breakthrough Result
+## Result
 This repository contains the computational verification and data supporting the proof of a long-standing conjecture in geometric topology: that every face-unfolding of the 4-dimensional hypercube has an edge-unfolding that tiles the plane. This result completes the classification of the hypercube as a "complete dimension-descending tiler" (c-DDT), resolving a question that had remained open since the initial exploration of hypercube unfoldings by Turney in 1984-85.
 
 ## Historical Context
