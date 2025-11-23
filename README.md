@@ -1,8 +1,8 @@
 # Proof the 4D Hypdercube is a Complete Dimension-descending Tiler
 
-For centuries, man has known all eleven of the cube's unfoldings tile space.
+<img width="252" height="394" alt="Dali_Crucifixion_hypercube" src="https://github.com/user-attachments/assets/fb41c7b8-c0e2-43a6-b5f9-25fc8dc26de5" />
 
-https://github.com/user-attachments/assets/a643af86-3954-4b58-ab83-b1641eb00958
+For centuries, man has known all eleven of the cube's unfoldings tile space.
 
 In 2015, G. Diaz and J. O'Rourke proved the first case of a hypercube face-unfolding's edge-unfolding tiling the plane. Through a brute force search, I show this is true for all of the hypercube's unfoldings. Mkaing it a dimension-descending tiler!
 
