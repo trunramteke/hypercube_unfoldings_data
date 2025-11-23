@@ -1,42 +1,17 @@
-# Complete Dimension-Descending Tilers: Proof for the 4D Hypercube
+# Proof the 4D Hypdercube is a Complete Dimension-descending Tiler
 
-## Result
-This repository contains the computational verification and data supporting the proof of a long-standing conjecture in geometric topology: that every face-unfolding of the 4-dimensional hypercube has an edge-unfolding that tiles the plane. This result completes the classification of the hypercube as a "complete dimension-descending tiler" (c-DDT), resolving a question that had remained open since the initial exploration of hypercube unfoldings by Turney in 1984-85.
+For centuries, man has known all eleven of the cube's unfoldings tile space.
 
-## Historical Context
-The journey toward this result spans several decades:
-- 1984-85: P. Turney established the 261 distinct face-unfoldings of the 4D hypercube
-- 2015: Diaz and O'Rourke proved the first case of a hypercube face-unfolding with a plane-tiling edge-unfolding
-- 2016: Langerman and Winslow demonstrated the Dali Cross case
-- 2022: This work completes the journey by proving that ALL face-unfoldings have plane-tiling edge-unfoldings
+https://github.com/user-attachments/assets/a643af86-3954-4b58-ab83-b1641eb00958
 
-## Publication
-The proof was presented at the Japan Conference on Discrete and Computational Geometry, Graphs, and Games (JCDCG³ 2022):
-- Conference Proceedings: [JCDCG³ 2022 Proceedings, p. 100](https://www.rs.tus.ac.jp/jcdcggg/JCDCG3-2022Proceedings(r2).pdf)
+In 2015, G. Diaz and J. O'Rourke proved the first case of a hypercube face-unfolding's edge-unfolding tiling the plane. Through a brute force search, I show this is true for all of the hypercube's unfoldings. Mkaing it a dimension-descending tiler!
 
-## Key Contributions
-- First complete proof that every face-unfolding of the hypercube has an edge-unfolding that tiles ℝ²
-- Development of an algorithmic approach using Hamiltonian paths for enumeration
-- Verification of linear unfoldings for all 261 cases
-- Computational data supporting the theoretical proof
+<img width="680" height="432" alt="Linear-unfolding-of-the-dali-cross-tiling-space-Faces-are-numbered-according-to-position" src="https://github.com/user-attachments/assets/ca9b7bad-a44d-42b0-a437-d9ea7d7fa34e" />
+<img width="495" height="284" alt="a-Dali-cross-unfolding-of-the-hypercube-the-numbers-correspond-to-those-in-Figure-2" src="https://github.com/user-attachments/assets/8550f3de-202f-4502-a4e4-aba9b783c180" />
 
-## Repository Structure
-```
-└── results/
-    └── [Complete coordinate data for all edge-unfoldings in JSON format]
-```
+The proof was presented at the Japan Conference on Discrete and Computational Geometry, Graphs, and Games [JCDCG³ 2022 Proceedings, p. 100](https://www.rs.tus.ac.jp/jcdcggg/JCDCG3-2022Proceedings(r2).pdf)
 
-## Methodology
-The proof builds upon:
-- Turney's classification of the 261 face-unfoldings
-- Firet's theorem on linear unfoldings
-- Novel algorithmic approach using Hamiltonian paths for enumeration
-- Computational verification across all cases
-
-## Data Format
-- Comprehensive JSON-formatted coordinates for all edge-unfoldings
-- Each unfolding follows the numbering system established by [FU Berlin Mathematics](https://page.mi.fu-berlin.de/moritz/mo/198722/unfoldings)
-- Special cases like the Dali Cross (Unfolding_213) are specifically annotated
+Each unfolding follows the numbering system established by [FU Berlin Mathematics](https://page.mi.fu-berlin.de/moritz/mo/198722/unfoldings)
 
 ## Citation
 If you use this work in your research, please cite:
